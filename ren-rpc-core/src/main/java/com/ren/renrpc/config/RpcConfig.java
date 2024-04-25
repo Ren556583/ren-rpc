@@ -48,11 +48,11 @@ public class RpcConfig {
     // */
     //private String tolerantStrategy = TolerantStrategyKeys.FAIL_FAST;
     //
-    ///**
-    // * 模拟调用
-    // */
-    //private boolean mock = false;
-    //
+    /**
+     * 模拟调用
+     */
+    private boolean mock = false;
+
     ///**
     // * 注册中心配置
     // */
