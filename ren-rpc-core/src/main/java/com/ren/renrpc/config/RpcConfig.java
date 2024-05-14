@@ -1,5 +1,6 @@
 package com.ren.renrpc.config;
 
+import com.ren.renrpc.serializer.SerializerKeys;
 import lombok.Data;
 
 /**
@@ -28,10 +29,10 @@ public class RpcConfig {
      */
     private Integer serverPort = 8080;
 
-    ///**
-    // * 序列化器
-    // */
-    //private String serializer = SerializerKeys.JDK;
+    /**
+     * 序列化器
+     */
+    private String serializer = SerializerKeys.JDK;
     //
     ///**
     // * 负载均衡器
